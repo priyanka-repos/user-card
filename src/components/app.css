@@ -1,0 +1,17 @@
+.nav{
+    background-color: blueviolet;
+    height: 6rem;
+}
+
+.list{
+    font-size: 1.6rem;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin-left: 14rem;
+}
+
+.list li{
+    margin-right: 5rem;
+}

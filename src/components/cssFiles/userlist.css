@@ -1,0 +1,38 @@
+/* .card{
+    background-color: rgb(218, 199, 237);
+    margin-right: 0%;
+    margin-top: 5%;
+} */
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Adjust as needed */
+    margin-left: 4rem;
+    margin-top: 20px;
+  }
+  
+  .card {
+    width: 250px; /* Adjust the width as needed */
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    height: fit-content;
+    background-color: rgb(215, 193, 249);
+  }
+  
+  /* css for search files */
+
+.search-bar{
+  margin-left: 40%;
+  margin-top: 25px;
+  margin-right: 60%;
+  
+}
+.search-bar input{
+  border: 2px solid rgb(93, 10, 144);
+  border-radius: 10px;
+  width: 15rem;
+  height: 2.5rem;
+  background-color: rgb(222, 208, 239);
+}
